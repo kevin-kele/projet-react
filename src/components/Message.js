@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Message extends Component {
-  render() {
-    return (
-      <p className='user-message'>
-          Mon message
-      </p>
-    );
-  }
+const Message = ({message,pseudo})=>{
+  return (
+    <p className='user-message'>
+      {message}
+    </p>
+  )
 }
+export default Message
