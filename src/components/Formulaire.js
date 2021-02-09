@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Message from './Message';
+// import message from './Message';
 
 export default class Formulaire extends Component {
   state = {
